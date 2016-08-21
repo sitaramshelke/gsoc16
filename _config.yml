@@ -1,0 +1,17 @@
+# Setup
+title:        Google Summer of Code-2016
+tagline:      Performance Co-Pilot
+baseurl:      "/gsoc16"
+paginate:     1
+
+# About/contact
+author:
+  name:       Sitaram Shelke
+  url:        https://sitaramhshelke.me
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown

@@ -1,6 +1,279 @@
-<html>
-<head><title>Hello</title></head>
-<body>
-  Hi!
-</body>
-</html>
+---
+layout: default
+title: {{ site.name }}
+---
+
+<h1>About Performance Co-Pilot</h1>
+<p>
+Performance Co-Pilot is an open source organisation maintaining the source for <a href="https://github.com/performancecopilot/pcp"> pcp</a> and other effecitve tools for system performance monitoring and analysis. pcp acts as a distributed and scalable framework providing wide range of services that may be used to monitor and manage system performance. People can also build their own programs using pcp APIs. More details about how pcp works can be found out on the <a href="http://pcp.io/">official website</a>.
+</p>
+<h1>Project Abstract: PCP versions of console tools</h1>
+<p>
+There are several widely used tools for monitoring system information. These tools do not consider the historical data and thus fail to analyze such information. Also these tools can only monitor local processes which restricts them from using on remote servers. pcp provides rich APIs to access historical information about local as well as remote processes. In this project we were able to implement pcp versions of popular linux system monitoring commands such as pidstat and mpstat. We have already started working to make htop work with pcp platform.
+</p>
+<h4>Mentor : <a href="https://github.com/ryandoyle">Ryan Doyle</a> </h4>
+
+<h2> Work that got merged: </h2
+<p>
+  <a href="https://github.com/performancecopilot/pcp/commits?author=sitaramshelke"> Link </a> contains all the commits to the organisation repository.
+</p>
+<h2> Work Completed: </h2
+<p>
+  1. <a href="https://github.com/sitaramshelke/pcp-pidstat/commits?author=sitaramshelke"> pcp-pidstat </a> contains the source code for pcp version of pidstat command.
+  <br>
+  2. <a href="https://github.com/sitaramshelke/pcp-mpstat/commits?author=sitaramshelke"> pcp-mpstat </a> contains the source code for pcp version of mpstat command.
+</p>
+<h2> Work still going on: </h2
+<p>
+  <a href="https://github.com/sitaramshelke/htop/commits/pcp?author=sitaramshelke"> Link </a> contains the source code for implementation of pcp platform for htop.
+</p>
+<a href="https://"></a>
+<link rel="stylesheet" href="{{ site.baseurl }}/css/time.css">
+<div class="container">
+
+<h1>Timeline</h1>
+    <ul class="timeline">
+        <li>
+          <div class="timeline-badge success" ><i class="glyphicon glyphicon-check"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Applications Results out!</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time">March 22 April</i></small></p>
+            </div>
+            <div class="timeline-body">
+              <p>Selected for GSoC with PCP organisation.<br>
+              <a href="https://sitaramshelke.me/gsoc.html">Blog Post</a>
+		          </p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge info"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Community bonding</h4>
+          		<p><small class="text-muted"><i class="glyphicon glyphicon-time">April 23, 2016 - May 22, 2016</i></small></p>
+            </div>
+            <div class="timeline-body">
+              <p> Got familiar with the pcp framework and tried sample examples using pcp APIs.<br>
+              Blog Posts:
+              <ul>
+                <li><a href="https://sitaramshelke.me/gsoc-week1.html">Week 1</a></li>
+                <li><a href="https://sitaramshelke.me/gsoc-week2.html">Week 2</a> </li>
+                <li><a href="https://sitaramshelke.me/gsoc-week34.html">Week 3&4</a> </li>
+              </ul>
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline">
+          <div class="timeline-badge info"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Coding Week 1</h4>
+          		<p><small class="text-muted"><i class="glyphicon glyphicon-time">May 22, 2016 - May 29, 2016</i></small></p>
+            </div>
+            <div class="timeline-body">
+              <p>Write sample program using pmcc<br>
+                <a href="https://sitaramshelke.me/gsoc-coding-week-1.html">Blog Post</a>
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge info"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Coding Week 2</h4>
+          		<p><small class="text-muted"><i class="glyphicon glyphicon-time">May 30, 2016 - June 05, 2016</i></small></p>
+            </div>
+            <div class="timeline-body">
+              <p>Write first version of pcp-pidstat<br>
+                <a href="https://sitaramshelke.me/gsoc-coding-week-2.html">Blog Post</a>
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline">
+          <div class="timeline-badge info"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Coding Week 3</h4>
+          		<p><small class="text-muted"><i class="glyphicon glyphicon-time">June 06, 2016 - June 10, 2016</i></small></p>
+            </div>
+            <div class="timeline-body">
+              <p>Implement Test Driven Develeopment for pcp-pidstat<br>
+                <a href="https://sitaramshelke.me/gsoc-coding-week-3.html">Blog Post</a>
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge info"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Coding Week 4</h4>
+          		<p><small class="text-muted"><i class="glyphicon glyphicon-time">June 13, 2016 - June 19, 2016</i></small></p>
+            </div>
+            <div class="timeline-body">
+              <p>Refactoring and new features in pcp-pidstat<br>
+                <a href="https://sitaramshelke.me/gsoc-coding-week-4.html">Blog Post</a>
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline">
+          <div class="timeline-badge info"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Coding Week 5</h4>
+          		<p><small class="text-muted"><i class="glyphicon glyphicon-time">June 20, 2016 - June 26, 2016</i></small></p>
+            </div>
+            <div class="timeline-body">
+              <p>Refactoring and adding tests for pcp-pidstat<br>
+                <a href="https://sitaramshelke.me/gsoc-coding-week-5.html">Blog Post</a>
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge success"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Midterm Evaluations</h4>
+          		<p><small class="text-muted"><i class="glyphicon glyphicon-time">June 28</i></small></p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge info"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Coding Week 6</h4>
+          		<p><small class="text-muted"><i class="glyphicon glyphicon-time">June 27, 2016 - July 03, 2016</i></small></p>
+            </div>
+            <div class="timeline-body">
+              <p>Added man-pages and regression tests<br>
+                <a href="https://sitaramshelke.me/gsoc-coding-week-6.html">Blog Post</a>
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline">
+          <div class="timeline-badge info"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Coding Week 7</h4>
+          		<p><small class="text-muted"><i class="glyphicon glyphicon-time">July 04, 2016 - July 10, 2016</i></small></p>
+            </div>
+            <div class="timeline-body">
+              <p>pcp-pidstat merged into pcp<br>
+                <a href="https://sitaramshelke.me/gsoc-coding-week-7.html">Blog Post</a>
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge info"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Coding Week 8</h4>
+          		<p><small class="text-muted"><i class="glyphicon glyphicon-time">July 11, 2016 - July 17, 2016</i></small></p>
+            </div>
+            <div class="timeline-body">
+              <p>Started working on pcp-mpstat<br>
+                <a href="https://sitaramshelke.me/gsoc-coding-week-8.html">Blog Post</a>
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline">
+          <div class="timeline-badge info"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Coding Week 9</h4>
+          		<p><small class="text-muted"><i class="glyphicon glyphicon-time">July 18, 2016 - July 24, 2016</i></small></p>
+            </div>
+            <div class="timeline-body">
+              <p>Added tests for pcp-mpstat<br>
+                <a href="https://sitaramshelke.me/gsoc-coding-week-9.html">Blog Post</a>
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge info"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Coding Week 10</h4>
+          		<p><small class="text-muted"><i class="glyphicon glyphicon-time">July 25, 2016 - July 31, 2016</i></small></p>
+            </div>
+            <div class="timeline-body">
+              <p>Added man-pages, regression tests. pcp-mpstat merged into pcp<br>
+                <a href="https://sitaramshelke.me/gsoc-coding-week-10.html">Blog Post</a>
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline">
+          <div class="timeline-badge info"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Coding Week 11</h4>
+          		<p><small class="text-muted"><i class="glyphicon glyphicon-time">August 01, 2016 - August 07, 2016</i></small></p>
+            </div>
+            <div class="timeline-body">
+              <p>Improvements for pcp-mpstat and pcp-pidstat<br>
+                <a href="https://sitaramshelke.me/gsoc-coding-week-11.html">Blog Post</a>
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge info"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Coding Week 12</h4>
+          		<p><small class="text-muted"><i class="glyphicon glyphicon-time">August 08, 2016 - August 14, 2016</i></small></p>
+            </div>
+            <div class="timeline-body">
+              <p>Started working on pcp platform for htop<br>
+                <a href="https://sitaramshelke.me/gsoc-coding-week-12.html">Blog Post</a>
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline">
+          <div class="timeline-badge info"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Coding Week 13</h4>
+          		<p><small class="text-muted"><i class="glyphicon glyphicon-time">August 08, 2016 - August 14, 2016</i></small></p>
+            </div>
+            <div class="timeline-body">
+              <p>Added uptime, average load and cpu, memory and swap meters to pcp platform for htop<br>
+                <a href="https://sitaramshelke.me/gsoc-coding-week-13.html">Blog Post</a>
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge success"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Final Evaluations</h4>
+          		<p><small class="text-muted"><i class="glyphicon glyphicon-time">August 24</i></small></p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Continued..</h4>
+          	</div>
+          </div>
+        </li>
+
+    </ul>
+</div>
